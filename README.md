@@ -4,7 +4,7 @@ A SQL-based analysis of a quick-commerce (Zepto-style) product catalog, covering
 
 ## 📌 Project Overview
 
-This project analyzes a 3,732-product quick-commerce catalog to answer real operational and business questions — inventory value, out-of-stock risk, discount patterns, category performance, and value-for-money pricing.
+This project analyzes a 3,732 quick-commerce catalog products to answer real operational and business questions — inventory value, out-of-stock risk, discount patterns, category performance, and value-for-money pricing.
 
 The goal was to practice a complete SQL analytics workflow: exploring raw data, cleaning it, defining core KPIs, and then going deeper into category- and product-level analysis — while staying honest about what the data can and can't reliably tell you.
 
