@@ -87,7 +87,7 @@ The goal was to get practice with a full SQL analytics workflow — exploring ra
 | Analysis Q8 | Highest inventory weight: **Munchies & Cooking Essentials, tied at 1,404.65 kg each** |
 
 ### ⚠️ Most important finding
-**"Munchies" and "Cooking Essentials" are statistically identical** across product count, revenue, and weight — strongly suggesting duplicated category data rather than a coincidence. This was only caught by comparing multiple queries against each other, not from any single query in isolation — a reminder that validating results across questions matters as much as writing the queries themselves.
+**"Munchies" and "Cooking Essentials" are statistically identical** across product count, revenue, and weight — strongly suggesting duplicated category data rather than a coincidence. It was only revealed by comparing multiple queries against each other, not from any individual query on its own — a reminder that verifying results across questions is as important as writing the queries themselves.
 
 
 ## 📁 Repository Structure
