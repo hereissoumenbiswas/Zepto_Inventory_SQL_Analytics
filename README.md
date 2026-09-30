@@ -66,7 +66,7 @@ The goal was to get practice with a full SQL analytics workflow — exploring ra
 ### 4. Two unrelated categories showing identical numbers
 **Challenge:** While cross-checking revenue (Q3) against inventory weight (Q8), I noticed **"Munchies" and "Cooking Essentials"** — two completely unrelated categories — had identical product counts (514), identical total revenue (₹337,369), and identical total weight (1,404.65 kg). This looked like a possible query bug at first.
 
-**Solution:** Re-ran both queries independently against the raw data to rule out a JOIN or GROUP BY error. The numbers held up — meaning this is a genuine characteristic of the dataset (likely duplicated/mirrored category data during generation), not a mistake in the SQL. Documented it as a data-quality finding rather than silently ignoring it.
+**Solution:** Re-ran both queries separately against the raw data to eliminate a JOIN or GROUP BY error. The numbers held up — meaning this is a genuine characteristic of the dataset (likely duplicated/mirrored category data during generation), not a mistake in the SQL. Documented it as a data-quality finding rather than silently ignoring it.
 
 ## 💡 What I Found (Key Insights)
 
