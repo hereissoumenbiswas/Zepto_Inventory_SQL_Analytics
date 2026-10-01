@@ -1,6 +1,6 @@
 # 🛒 Zepto Sales & Inventory Analysis — SQL Project
 
-A SQL-based analysis of a quick-commerce (Zepto-style) product catalog, covering data cleaning, inventory KPIs, and category/pricing analysis using **PostgreSQL**.
+SQL analysis of a quick-commerce (Zepto style) product catalog involving data cleaning, inventory KPIs and category/pricing analysis.
 
 ## 📌 Project Overview
 
