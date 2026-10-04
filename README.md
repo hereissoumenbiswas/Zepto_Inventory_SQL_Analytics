@@ -54,7 +54,7 @@ The goal was to get practice with a full SQL analytics workflow — exploring ra
 **Solution:** Identified this was paise, not rupees, and applied a one-time conversion (`price / 100.0`) to both `mrp` and `discountedsellingprice` before any analysis — done *after* cleaning, so the fix wouldn't get lost in later steps.
 
 ### 2. A product with price = 0
-**Challenge:** One row had `mrp = 0` — clearly invalid, since no real product is priced at zero.
+**Challenge:** One row had `mrp = 0` — Clearly invalid, as no genuine product is priced at zero.
 
 **Solution:** Investigated the row first (`SELECT * WHERE mrp = 0`) rather than deleting blindly, confirmed it was a single, clearly broken record (not a valid free-item case), and removed it (`sku_id = 3607`).
 
